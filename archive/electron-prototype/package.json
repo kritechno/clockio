@@ -1,0 +1,9 @@
+{
+  "name": "clockio",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Archived Electron/Vite prototype. The active app is the Swift package at the repository root.",
+  "scripts": {
+    "archived": "echo \"Archived prototype. Use the Swift package at the repository root.\""
+  }
+}

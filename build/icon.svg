@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="144" y1="96" x2="892" y2="928" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#091324"/>
+      <stop offset="0.52" stop-color="#2b1317"/>
+      <stop offset="1" stop-color="#f3b56f"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="96" y1="644" x2="944" y2="392" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6ee7f6"/>
+      <stop offset="0.32" stop-color="#b58cff"/>
+      <stop offset="0.62" stop-color="#ff8e76"/>
+      <stop offset="1" stop-color="#f6d29b"/>
+    </linearGradient>
+    <filter id="soft" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" rx="226" fill="url(#bg)"/>
+  <path d="M100 646 C 204 566, 292 724, 398 556 C 512 376, 598 610, 720 464 C 810 356, 866 448, 934 384" fill="none" stroke="url(#ribbon)" stroke-width="96" stroke-linecap="round" opacity="0.36" filter="url(#soft)"/>
+  <path d="M92 646 C 206 566, 292 724, 398 556 C 512 376, 598 610, 720 464 C 810 356, 866 448, 934 384" fill="none" stroke="url(#ribbon)" stroke-width="44" stroke-linecap="round" opacity="0.94"/>
+  <text x="512" y="570" text-anchor="middle" font-family="Geist, SF Pro Display, -apple-system, BlinkMacSystemFont, sans-serif" font-size="228" font-weight="300" letter-spacing="-20" fill="rgba(255,255,255,0.94)">12</text>
+  <circle cx="512" cy="674" r="18" fill="rgba(255,255,255,0.72)"/>
+</svg>
